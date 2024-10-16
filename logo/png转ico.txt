@@ -1,0 +1,1 @@
+ffmpeg -i logo.png -s 64x64 -filter_complex "scale=sws_flags=lanczos" -r 1 logo.ico
